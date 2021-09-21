@@ -18,7 +18,7 @@ spec:
       containers:
       - name: 2048-app
         # Replace with your docker registry info
-        image: <your_docker_registry>/<repo_name>/<image_name>:<tag>
+        image: europe-west2-docker.pkg.dev/tekton-test-321920/tekton-test-repo/app-test:latest
         ports:
         - name: http
           containerPort: 8000
